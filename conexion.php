@@ -11,11 +11,6 @@ class Conexion
             $password = "";
             $dbname = "super";
 
-            // Para subir a un hosting
-            // $server = "localhost";
-            // $user = "c1892189_damco";
-            // $password = "gagutaRO73";
-            // $dbname = "c1892189_damco";
 
             $link = new PDO("mysql:host=$server; dbname=$dbname", $user, $password);
 
