@@ -18,7 +18,7 @@ $sheet = $spreadsheet->getActiveSheet();
 $highestRow = $sheet->getHighestRow();
 $highestColumn = $sheet->getHighestColumn();
 
-// Itera sobre cada fila del archivo Excel
+
 // Itera sobre cada fila del archivo Excel
 for ($row = 2; $row <= $highestRow; $row++) {
     // Obtiene los datos de cada celda
